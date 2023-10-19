@@ -16,7 +16,13 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif
  }
 
-h3{
+h2{
+
+   color: #2D1B1C;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ h3{
    
    color:#2D1B1C;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,6 +42,6 @@ h3{
 
  p{
 
-   color: #ffffff;
+   color: #48211E;
    background-color: #B2906A;
  }
