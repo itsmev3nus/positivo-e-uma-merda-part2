@@ -16,6 +16,13 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif
  }
 
+h3{
+   
+   color:#2D1B1C;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
  li{
 
     color:#48211E
@@ -25,4 +32,10 @@ h1{
 
     color: #48211e;
     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ p{
+
+   color: #ffffff;
+   background-color: #B2906A;
  }
