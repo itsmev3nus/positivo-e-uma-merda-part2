@@ -14,19 +14,21 @@ h1{
 
     color:#48211E;
     font-family:Georgia, 'Times New Roman', Times, serif
- }
+    
+   }
 
 h2{
 
    color: #2D1B1C;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 
  h3{
    
    color:#2D1B1C;
    font-family: Georgia, 'Times New Roman', Times, serif;
-
+   
 }
 
  li{
@@ -37,11 +39,12 @@ h2{
  strong{
 
     color: #2D1B1C;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  }
 
  p{
 
    color: #000000;
    background-color: #B2906A;
- }
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
