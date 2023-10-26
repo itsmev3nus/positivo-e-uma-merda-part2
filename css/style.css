@@ -27,6 +27,7 @@ h2{
  h3{
    
    color:#2D1B1C;
+   background-color: #B2906A;
    font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
@@ -45,6 +46,5 @@ h2{
  p{
 
    color: #000000;
-   background-color: #B2906A;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
