@@ -9,7 +9,7 @@
 </head>
 <body style="background-color: #F2F09E">
     <header>
-        <h1 style="color: #48211E;">Estrelas do Ritmo</h1>
+        <h1 style="color: #48211E;">Área de Inscrição</h1>
         <nav>
             <ul type="disc">
                 <li><a  style="color: #48211E" href="index.html">Início</a></li>
@@ -22,3 +22,42 @@
                     <li><a style="color: #48211E" href="fale conosco.html">Fale Conosco</a></li>
             </ul>
             </nav>
+
+            <form>
+                <fieldset>
+                        <legend>Painel de Inscrição</legend>
+                        <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="40" placeholder="Escreva seu nome completo"></p>
+                        <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail" placeholder="exemplo01@gmail.com"></p>
+                        <p><label for="idData">Data de Nascimento:</label><input type="date" name="nData" id="idData"></p>
+                        <p><label for="idSenha">Sua Senha:</label><input type="password" name="nSenha" id="idSenha"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Informações adicionais</legend>
+                    <label for="id1">Horario que prefere ou está disponivel para ensaios</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
+                        for="id1">Manhã</label>
+                    <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Tarde" id="id2"><label for="id2">Tarde</label>
+                    <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Noite" id="id3"><label for="id3">Noite</label>
+                    <br>
+                    <br>
+                    <label for="idNum">Coloque para nós quantos ensaios tem interesse de participar</label><br><input type="number" name="nNum" id="idNum" min="0" max="6">
+                    <br>
+                    <br>
+                    <label for="idSelecao">Qual ensaio tem interesse de participar?</label><br>
+                    <select name="nSelecao" id="idSelecao">
+                        <option value="Coisa 1">Quadra</option>
+                        <option value="Coisa 2">Técnico</option>
+                        <option value="Coisa 3">Bateria</option>
+                        <option value="Coisa 4">Harmonia</option>
+                        <option value="Coisa 5">Alas e alegorias</option>
+                        <option value="Coisa 6">Comissão de Frente</option>
+                    </select>
+                    <br>
+                    <br>    
+                    <label for="idRange"> Arraste para o lado o seu nivel de interesse em participar dos ensaios</label><br><input type="range" min="1" max="12" name="nRange" id="idRange">
+                    <br>
+                    <br>
+                    <label for="idCaixa">Se o ensaio que quer fazer não está nas opções, deixe aqui sua sugestão:</label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui alguma coisa" name="nCaixa" id="idCaixa"></textarea><br>
+                </fieldset>
+            </form>
+        </body>
+        </html>
